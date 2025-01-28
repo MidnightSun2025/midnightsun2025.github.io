@@ -1,0 +1,165 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>Mensa Midnight Sun 2020</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<!-- <link rel="shortcut icon" href="../favicon.ico" /> -->
+</head>
+<body>
+<!--
+<div id="header">
+<!-- <a href="main_page.html"><img src="../images/midsun-logo.png" alt="Logo" /></a>  -->
+</div>
+
+
+<div id="navigation">
+	<ul>
+		<li><a href="Ohjelma.html" id="ohjelma">Program</a></li>
+		<li><a href="Ilmoittautuminen.html" id="ilmoittautuminen">Registration</a></li>
+		<!--<li><a href="Yhteystiedot.php" id="yhteystiedot">Contacts</a></li>-->
+	</ul>
+</div><body id="Ilmoittautuminen">
+<div id="container">
+<div id="content">
+<div id="contentleft">
+
+<h1></h1>
+
+
+<form action="mailform.php" method="post">
+<div>
+<!-- Aseta t㩤n vastaanottajan tunnus mailform.cfg tiedostosta -->
+<!-- T㮤 voisi olla vaikkapa selectin⟬omakkeellakin -->
+<input type="hidden" name="userid" value="1" />
+
+<!-- Aseta t㩤n url-osoite johon menn壮 onnistuneen l㧥tyksen j㫫een -->
+<input type="hidden" name="redir" value="Kiitos.php" />
+</div>
+
+<!-- T㲳⟫㸴t㫤lle n㪹v⟬omake, muokkaa mieleiseksi. -->
+ <div class="box">
+            <h1>Registration</h1>
+
+			<label>
+               <span>Name</span>
+               <input type="text" class="input_text" name="name" id="name"/>
+            </label>
+			<label>
+                <span>Male</span>
+			    <input type="radio" name="sex" value="mies" id="sex"/>
+			</label>
+			<label>
+				<span>Female</span>
+			    <input type="radio" name="sex" value="nainen" id="sex"/>
+			</label>
+            
+			<label>
+                <span>Country of origin</span>
+                <input type="text" class="input_text" name="country" id="country"/>
+            </label>
+			<label>
+                <span>Membership-ID</span>
+                <input type="text" class="input_text" name="number" id="number"/>
+            </label>
+            <label>
+               <span>E-mail</span>
+               <input type="text" class="input_text" name="email" id="email"/>
+            </label>
+			<label>
+               <span>Phone Number</span>
+               <input type="text" class="input_text" name="GSM" id="GSM"/>
+            </label>
+			<label>
+                <span>Allergies, special diets and other special needs</span>
+                <textarea class="message" name="message" id="message"></textarea>
+            </label>
+			<label>
+                <span>(OPTIONAL) I Wish to share room with (names), eg. on 2 person cottage</span>
+                <textarea class="message" name="detail" id="detail"></textarea>
+            </label>
+
+
+			<label><center>
+               &nbsp I want to book a two person cottage with my friend for 130 &euro; extra/person OR I want to book a single room for 100 &euro; extra/person (please remember to add this into the entrance fee if chosen AND highlight this on extra field above)&nbsp &nbsp 
+ 		<input type="hidden" name="ch1" value="ei" />
+               <Input type='checkbox' name='ch1' value="kyllä" id="ch1"> Yes
+			   </center>
+			</label>
+			   
+			<label>
+				<input type="submit" class="button" value="Send" />
+			</label>
+</div>
+
+</form>
+<div align=center>
+Registration is binding. Pay the admission fee 500 €/person (or 600 or 630) to the bank account of Susanna Rantala bank: 
+<br>Sallan Osuuspankki account number 
+<br>(IBAN): FI52 5409 0050 0161 18 
+<br>BIC/SWIFT: OKOYFIHH
+<br>Give your Name and Membership-ID in the payment info.
+</div>
+
+</div>
+
+<div id="sidebar">
+<div align="right"><!--
+<form name="form1">
+<select style="font-size:12px;color:#006699;font-family:verdana;background-color:#ffffff;" name="menu" onChange="location=document.form1.menu.options[document.form1.menu.selectedIndex].value;">
+<option value=''>English</option>
+<option value="../Suomi/Ohjelma.php">Suomi</option>
+<!--<option value="../Englanti/Ohjelma.php">English</option>-->
+
+</select>
+</form>
+</div>
+<div class="sidebar-element">
+<h3>Links</h3>
+	<ul>
+		
+		<li><a href="http://www.norwegian.com/uk/?gclid=CM3hrdSCvbsCFYJP3godYh8AtA">Norwegian</a></li>
+		<li><a href="http://www.finnair.com/GB/GB/company-travel">Finnair</a></li>
+		<li><a href="http://www.vr.fi/en/index.html">Railways</a></li>
+		<li><a href="http://www.onnibus.com/en/index.htm">Onnibus, cheap intercity busline</a></li>
+		<li><a href="http://www.foreca.com/Finland/Rovaniemi?tenday">Foreca weather forecast - Rovaniemi</a></li>
+		<li><a href="http://www.foreca.com/Finland/Ivalo?tenday">Foreca weather forecast - Ivalo</a></li>
+		<li><a href="http://en.ilmatieteenlaitos.fi/weather/Rovaniemi">The Finnish Meteorological Institute - Rovaniemi</a></li>
+		<li><a href="http://en.ilmatieteenlaitos.fi/weather/Inari">The Finnish Meteorological Institute - Inari</a></li>
+		<li><a href="http://www.tankavaara.fi/">Tankavaara</a></li>
+		<li><a href="https://yle.fi/uutiset/osasto/news/cnn_lists_finlands_lake_inari_as_one_of_europes_most_beautiful_places/11007436">Lake Inari</a></li>
+		<li><a href="http://www.santaclausvillage.info/">Arctic Circle</a></li>
+ 		<li><a href="https://nellim.fi/muotka/">Here you can find specs from our accomodation, check Wilderness Rooms</a></li>
+			
+	</ul>
+</div>
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+</div>
+</div>
+
+<div align=center id="footer">
+<br />
+<img src="../images/mensa-logo.png" alt="" /></a>
+<h3>Mensa Arctic Circle</h3>
+
+</div>
+
+</body>
+
+</html>
